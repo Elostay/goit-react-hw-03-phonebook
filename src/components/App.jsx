@@ -19,7 +19,7 @@ class App extends Component {
     }
   }
   componentDidUpdate(_, prevState) {
-    if (prevState.contacts !== this.state.contacts) {
+    if (prevState.contacts.length !== this.state.contacts.length) {
       localStorage.setItem(LS_KEY, JSON.stringify(this.state.contacts));
     }
   }
