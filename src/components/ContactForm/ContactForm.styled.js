@@ -24,7 +24,8 @@ export const Button = styled.button`
   font-size: 20px;
 `;
 export const Title = styled.h1`
-  width: 300px;
+  font-size: 30px;
+  max-width: 700px;
   text-align: center;
   border-radius: 30px;
   color: #f7e5d5;
@@ -42,7 +43,9 @@ export const Label = styled.label`
   margin-bottom: 40px;
 `;
 
-export const SubTitle = styled.h1`
+export const SubTitle = styled.h2`
+  font-size: 30px;
+  max-width: 700px;
   text-align: center;
   border-radius: 30px;
   color: #f7e5d5;
